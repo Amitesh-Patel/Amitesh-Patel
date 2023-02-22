@@ -10,3 +10,7 @@
 - 📫 How to reach me: Email - mr.amiteshpatel@gamil.com
 - ⚡ Fun fact: I see data everywhere
 
+
+
+Languages and Tools:
+c cplusplus css3 figma flask html5 java mongodb mysql pandas python scikit_learn seaborn tensorflow
