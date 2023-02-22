@@ -1,0 +1,253 @@
+%-------------------------
+% Resume in Latex
+% Author : Amitesh Patel
+% Based off of: https://github.com/Amitesh-Patel
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{ {./images/} }
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\setlength{\footskip}{4.08003pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+    {\Huge \scshape Amitesh Patel} \\ \vspace{1pt}
+    Gorakhpur, Uttar Pradesh , 273013 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 8318268334 ~ \href{mailto:amitesh.21ug1044@iiitranchi.ac.in}{\raisebox{-0.2\height}\faEnvelope\  \underline{amitesh.21ug1044@iiitranchi.ac.in}} ~
+    \href{www.linkedin.com/in/amitesh-patel-068483230}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/amitesh-patel}}  ~
+    \href{https://github.com/Amitesh-Patel}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/Amitesh-Patel}}\
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+  \vspace{2px}
+    \resumeSubheading
+      {Indian Institute of Information Technology Ranchi}{Dec 2021 -- Present}
+      {B. Tech.  in \textbf{Computer Science and Engineering} (CGPA 8.38 )}{Ranchi, Jharkhand}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Algorithms Analysis
+%                 \item Advanced Algorithms
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+\vspace*{1px}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\vspace{2pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      { Junior NLP Intern}{Feb 2023 -- Present}
+      {\href{https://saptanglabs.com/}{Saptang Labs}}{Chennai, Tamil Nadu}
+      \resumeItemListStart
+
+      \resumeItemListEnd
+      
+   
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{8pt}
+    \resumeSubHeadingListStart
+      
+      \vspace{1pt}
+        \resumeProjectHeading
+          {\href{https://github.com/Amitesh-Patel/TRAC}
+          {\raisebox{0.0\height}\faLink\ {\textbf{TRAC}}} $|$ \emph{Python, Machine Learning , NLP}}{Aug 2022}
+          \resumeItemListStart
+          \vspace{5px}
+            \resumeItem{Competition | CodaLab | GitHub, Python, NLP Build models to detect Bias, Threat and    Aggression in Hindi, Bengali or Meitei sentences. Ranked 1st Globally.}
+          \resumeItemListEnd
+          \vspace{5pt}
+      
+      \resumeProjectHeading
+          {\href{https://github.com/Amitesh-Patel/Sentiment-Analysis}{\raisebox{0.0\height}\faLink\ {\textbf{ASSOC}}} $|$ \emph{Python , NLP}}{Sep 2022}
+          \resumeItemListStart
+          \vspace{5px}
+            \resumeItem{Increased the accuracy and macro average score from previous research papers. Increased the weighted average from 0.74(by using BERT models) to 0.81(by using SVM) in Offensive Language Detection . Applied Deep Learning methods in Sentiment Analysis.}
+          \resumeItemListEnd
+          \vspace{8pt}
+
+      \resumeProjectHeading
+        {\href{https://github.com/aman06012003/Pose-Estimation-and-Detecting-Movement}{\raisebox{0.0\height}\faLink\ {\textbf{Computer Vision}}} $|$ \emph{Python , CV}}{Jan 2023}
+          \resumeItemListStart
+          \vspace{5px}
+            \resumeItem{Pose Estimation Model . Build a model to count the number of times when shoulder raises and fall . Used Media pipe and OpenCV. }
+          \resumeItemListEnd
+          \vspace{8pt}
+     \resumeProjectHeading
+    {\href{https://github.com/Amitesh-Patel/Generative-Adversarial-Networks}{\raisebox{0.0\height}\faLink\ {\textbf{GAN}}} $|$ \emph{}}{Feb 2023}
+      \resumeItemListStart
+      \vspace{5px}
+        \resumeItem{ Generated Mnist digits with GAN . Also used Deep Convolutional GAN which performed better than GAN .  }
+      \resumeItemListEnd
+      \vspace{8pt}
+      
+        
+
+
+          \vspace{13pt}
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+\vspace*{10px}
+%-----------RESEARCH-----------
+\section{Achievements}
+
+    \resumeSubHeadingListStart
+    \vspace{2px}
+        \resumeSubheading{Won Ethos Hackathon , Organised by IIT  Guwahati}
+        {\textbf{\href{https://devfolio.co/projects/contextual-profile-anlysis-3ebb}{Devfolio}}}
+        {\textbf{Build a Contextual Profile Analysis Tool , Problem statement was provided by Saptang Labs}}
+        
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+%
+
+\vspace*{10px}
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C++} \\
+     \textbf{Technologies/Frameworks}{: TensorFlow , PyTorch , scikit-Learn , Hugging Face , keras , Git, GitHub, FastAPI, Flask, Pandas, Numpy ,} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+\vspace*{10px}
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+
+    \resumeSubHeadingListStart   
+        \resumeSubheading{Lead}{Feb 2023 -- Present}{Google Developer Student Clubs}{IIIT Ranchi}
+
+        
+            \resumeItemListStart
+                \resumeItem{\textbf{ML/AI Lead} and \textbf{managing} a community of \textbf{250+ students}.}
+    \resumeSubHeadingListEnd
+
+
+\end{document}
