@@ -3,7 +3,7 @@
 
 **Amitesh-Patel** here
 
--  I’m currently working on a Research Paper (COD)
+-  I’m currently working on a Research Paper (Roumor Detection)
 -  I’m currently learning Flask
 -  I’m looking to collaborate on for good projects
 -  Ask me about data
